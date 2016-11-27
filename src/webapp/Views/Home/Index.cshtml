@@ -1,30 +1,22 @@
-﻿@{}
-
-<div class="splash-container">
+﻿<div class="splash-container">
     <div class="splash">
         <img alt="PsakeZero" src="/assets/img/logo.png" style="height: 300px">
 
-        <code style="font-size: 1.5em;display: block;text-transform: none;">
-            <span style="color: #000000;background: #012456;padding:1.1em;">
-                <span style="color: #ffff00;"> Invoke-WebRequest</span>
-                <span style="color: #ffffff;font-weight:bold;"> psakezero.com | </span>
-                <span style="color: #ffff00;">Invoke-Expression</span>
-            </span>
-        </code>
+        <code class="code-snippet">Invoke-WebRequest <span>psakezero.com |</span> Invoke-Expression</code>
 
     </div>
 </div>
 
 <div class="content-wrapper">
     <div class="content">
-        <h2 class="content-head is-center">Ships with Sane Opinions</h2>
+        <h2 class="content-head is-center">Ships with typical opinions</h2>
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
                     <i class="fa fa-terminal"></i> Answer a handful of prompts
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    Once you start the script it will walk you through a few questions to get things setup. A couple of names and some defaults and you are done.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -32,7 +24,7 @@
                     <i class="fa fa-bolt"></i> Bootstraps Psake and Nuget
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    Part of the install process your repo will get local copies of Psake and Nuget.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -40,7 +32,7 @@
                     <i class="fa fa-git"></i> Sets up your dot git and readme files
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    You'll also get started with a simple .gitattributes and a community driven .gitignore file from GitHub.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -48,7 +40,7 @@
                     <i class="fa fa-database"></i> Gives you CI and database migration options
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    If you project is headed to a CI server it you can optionally drop in a Psake task to wrap those specifics. Same goes for dataabse migration tasks.
                 </p>
             </div>
         </div>
@@ -83,11 +75,9 @@
             <div class="l-box-lrg pure-u-1 pure-u-md-1-3">
                 <h3><i class="fa fa-terminal"></i> Run the remote script</h3>
                 <p>You'll need to execute a remote script but, again, it is open for you to see</p>
-                <p>
-                    Run the following:
-                    <pre>Invoke-WebRequest psakezero.com | Invoke-Expression</pre> or
-                    <pre>iwr psakezero.com | iex</pre>
-                </p>
+                <p>Run the following:</p>
+                <code>Invoke-WebRequest psakezero.com | Invoke-Expression<br>
+                iwr psakezero.com | iex</code>
                 <p>
                     This uses the Invoke-WebRequest cmdlet to GET the script that lives on GitHub and send it to your client. From there it is
                     piped to the Invoke-Expression cmdlet where it executes on your machine
@@ -110,12 +100,8 @@
         </div>
     </div>
 
-
-
-
-
-    <!--<div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>-->
+    <div class="footer l-box is-center">
+       PsakeZero — @DateTime.Now.ToLocalTime().Year &copy;
+    </div>
 
 </div>

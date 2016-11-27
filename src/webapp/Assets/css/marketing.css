@@ -38,7 +38,7 @@ label {
 }
 
 .l-box-lrg {
-    padding: 2em;
+    padding: 2.5em;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -223,7 +223,7 @@ a.pure-button-primary {
 
 /* This is the class used for the footer */
 .footer {
-    background: #111;
+    background: #012456;
 }
 
 /*
@@ -289,4 +289,17 @@ a.pure-button-primary {
 
 .service-icons {
     margin: 0 15px 0 0;
+}
+
+.code-snippet {
+    color: #efff00;
+    background: #012456;
+    padding: 1.05em 0 1.05em 0;
+    font-size: 1.0em;
+    display: block;
+    text-transform: none;
+    font-weight: bolder;
+}
+.code-snippet>span {
+    color:white
 }

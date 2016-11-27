@@ -10,21 +10,12 @@ namespace webapp.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
+            if (base.Request.AcceptTypes != null && base.Request.AcceptTypes.Any(x => x == "text/html"))
+            {
+                return View();
+            }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return Redirect("https://raw.githubusercontent.com/motowilliams/psake-surgeon/master/init.ps1");
         }
     }
 }
