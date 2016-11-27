@@ -15,7 +15,7 @@ namespace webapp.Controllers
                 return View();
             }
 
-            return Redirect("https://raw.githubusercontent.com/motowilliams/psake-surgeon/master/init.ps1");
+            return Redirect("https://raw.githubusercontent.com/psakezero/script/master/init.ps1");
         }
     }
 }
