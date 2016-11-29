@@ -10,9 +10,6 @@ namespace webapp
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Assets/css/marketing.css"));
-
-            bundles.Add(new StyleBundle("~/Content/ie-css").Include(
-                      "~/Assets/css/marketing-old-ie.css"));
         }
     }
 }

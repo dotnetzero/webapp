@@ -152,7 +152,7 @@ a.pure-button-primary {
     height: 50%;
     margin: auto;
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -295,7 +295,7 @@ a.pure-button-primary {
     color: #efff00;
     background: #012456;
     padding: 1.05em 0 1.05em 0;
-    font-size: 1.0em;
+    font-size: 1.6em;
     display: block;
     text-transform: none;
     font-weight: bolder;
