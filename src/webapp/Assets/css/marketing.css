@@ -226,6 +226,30 @@ a.pure-button-primary {
     background: #012456;
 }
 
+.service-icons {
+    margin: 0 15px 0 0;
+}
+
+
+.code-snippet {
+    color: #efff00;
+    background: #012456;
+    padding: 1.05em 0 1.05em 0;
+    font-size: 1.0em;
+    display: block;
+    text-transform: none;
+    font-weight: bolder;
+}
+
+    .code-snippet > span {
+        color: white;
+    }
+
+.psakezero-logo {
+    height: 50%;
+}
+
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -273,6 +297,14 @@ a.pure-button-primary {
     .l-box-lrg {
         border: none;
     }
+
+    .code-snippet {
+        font-size: 1.1em;
+    }
+
+    .psakezero-logo {
+        height: 60%;
+    }
 }
 
 /*
@@ -285,21 +317,12 @@ a.pure-button-primary {
     .splash-head {
         font-size: 300%;
     }
-}
 
-.service-icons {
-    margin: 0 15px 0 0;
-}
+    .code-snippet {
+        font-size: 1.6em;
+    }
 
-.code-snippet {
-    color: #efff00;
-    background: #012456;
-    padding: 1.05em 0 1.05em 0;
-    font-size: 1.6em;
-    display: block;
-    text-transform: none;
-    font-weight: bolder;
-}
-.code-snippet>span {
-    color:white
+    .psakezero-logo {
+        height: 75%;
+    }
 }
