@@ -224,7 +224,8 @@ a.pure-button-primary {
 
 /* This is the class used for the footer */
 .footer {
-    background: #white;
+    color: white;
+    background-color: #3964C3;
 }
 
 .service-icons {
@@ -257,6 +258,29 @@ a.pure-button-primary {
 .section-icons {
     font-size: 6em;
 }
+
+.issue-display {
+    font-size: 1.3em;
+}
+
+.issue-list li {
+    margin-bottom:0.75em;
+}
+
+.issue-list span {
+ margin-left:0.25em;
+ margin-right:0.25em;
+ padding:0.2em;
+ color:white;
+}
+
+.issue-list .issue-container {
+    padding: 10px;
+    margin:10px;
+    border: 1px solid #eee;
+    flex-grow: 1;
+}
+
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
@@ -317,6 +341,10 @@ a.pure-button-primary {
     .section-icons {
         font-size: 7em;
     }
+
+    .issue-list .issue-container {
+        flex-grow: 0;
+    }
 }
 
 
@@ -324,11 +352,19 @@ a.pure-button-primary {
     .section-icons {
         font-size: 8em;
     }
+
+    .issue-list .issue-container {
+        flex-grow: 0;
+    }
 }
 
 @media (min-width: 63em) {
     .section-icons {
         font-size: 9em;
+    }
+
+    .issue-list .issue-container {
+        flex-grow: 0;
     }
 }
 
@@ -353,5 +389,9 @@ a.pure-button-primary {
 
     .section-icons {
         font-size: 12em;
+    }
+
+    .issue-list .issue-container {
+        flex-grow: 0;
     }
 }
