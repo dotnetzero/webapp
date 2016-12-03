@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="224.42572"
+   height="172.6235"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="powershell-logo.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="87.27486"
+     inkscape:cy="124.99918"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#2570c1;fill-opacity:1;stroke:none;stroke-width:4.36454296px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="rect3839"
+     transform="matrix(1,0,-0.2554448,0.96682364,0,0)"
+     y="1.0564545e-014"
+     x="42.036766"
+     ry="16.030434"
+     height="178.54704"
+     width="185.96111" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ffffff;stroke-width:18.86474037;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path3846"
+     d="M 85.052706,25.95096 141.44348,83.54642 54.917096,140.01008" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ffffff;stroke-width:18.86474037;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path3850"
+     d="m 107.71439,142.18678 43.8968,0" />
+</svg>
