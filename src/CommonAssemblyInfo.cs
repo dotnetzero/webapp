@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisibleAttribute(false)]
 [assembly: AssemblyVersionAttribute("1.0.0")]
 [assembly: AssemblyFileVersionAttribute("1.0.0")]
-[assembly: AssemblyCopyrightAttribute("Copyright 2016")]
+[assembly: AssemblyCopyrightAttribute("Copyright 2017")]
 [assembly: AssemblyProductAttribute("WebApp")]
 [assembly: AssemblyCompanyAttribute("PsakeZero")]
 [assembly: AssemblyConfigurationAttribute("Release")]
