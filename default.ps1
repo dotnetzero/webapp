@@ -13,7 +13,7 @@ properties {
     $environment = "Local"
 
     # msbuild settings
-    $solution = "Default.sln"
+    $solution = "WebApp.sln"
     $solutionFile = "$sourceDirectory\$solution"
     $verbosity = "normal"
     $buildConfiguration = "Release"
