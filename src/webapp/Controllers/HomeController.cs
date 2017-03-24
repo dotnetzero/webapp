@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
 
@@ -14,8 +15,21 @@ namespace webapp.Controllers
             {
                 return View();
             }
+            
+            string uri = base.Request.UserAgent.ToLower().Contains("powershell") 
+            ? "https://raw.githubusercontent.com/dotnetzero/script/feature/adds-bash-support/init.ps1" 
+            : "https://raw.githubusercontent.com/dotnetzero/script/feature/adds-bash-support/init.sh" ;
 
-            return Redirect("https://raw.githubusercontent.com/psakezero/script/master/init.ps1");
+            var httpClient = new HttpClient();
+            httpClient.BaseAddress = new Uri(uri);
+            var responseMessage = httpClient.GetAsync("").Result;
+            
+            var result = new ContentResult(){ };
+
+            var content = responseMessage.Content.ReadAsStringAsync().Result;
+
+            result.Content =  content;
+            return result;
         }
     }
 }
