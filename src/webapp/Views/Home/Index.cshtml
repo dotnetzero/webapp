@@ -9,7 +9,7 @@
             A simple script to setup your source tree
         </p>
         <code class="code-snippet">Invoke-WebRequest <span>dotnetzero.com |</span> Invoke-Expression</code>
-
+        <code class="code-snippet">bash &lt;(curl -L -s <span>dotnetzero.com</span>)</code>
     </div>
 </div>
 
@@ -87,15 +87,21 @@
                 <h3>Run the remote script</h3>
                 <p>You'll need to execute a remote script but, again, it is open for you to see</p>
                 <p>Run the following:</p>
-                <div style="border: 1px solid gray;background-color: #f9f9f9;padding: 15px;text-align:center">
-                    <code style="font-size: 1.1em;font-weight: bold;letter-spacing: 0.05em;">Invoke-WebRequest dotnetzero.com | Invoke-Expression</code>
+                <div style="border: 1px solid gray;background-color: #f9f9f9;padding: 15px;text-align:center;margin-bottom: 0.15em;">
+                    <code style="font-size: 1.1em;font-weight: bold;letter-spacing: 0.05em;margin-bottom: .25em;">Invoke-WebRequest dotnetzero.com | Invoke-Expression</code>
                 </div>
                 <p>
                     This uses the Invoke-WebRequest cmdlet to GET the script that lives on GitHub and send it to your client. From there it is
                     piped to the Invoke-Expression cmdlet where it executes on your machine
                 </p>
+                <div style="border: 1px solid gray;background-color: #f9f9f9;padding: 15px;text-align:center">
+                    <code style="font-size: 1.1em;font-weight: bold;letter-spacing: 0.05em;">bash &lt;(curl -L -s <span>dotnetzero.com</span>)</code>
+                </div>
+                <p>
+                    This uses the curl command to GET the script that lives on GitHub and send it to your client. From there it is redirected to bash where it executes on your machine
+                </p>
             </div>
-
+            
         </div>
     </div>
 
