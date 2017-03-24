@@ -5,7 +5,6 @@
 Param(
     [ValidateSet('westus','southcentralus','centralus','northcentralus','westcentralus','westus2')]
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-    [ValidateSet('tmfweb-test-rg', 'tmfweb-uat-rg', 'tmfweb-prod-rg')]
     [string] $ResourceGroupName,
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,

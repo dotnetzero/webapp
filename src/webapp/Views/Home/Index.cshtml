@@ -1,14 +1,14 @@
 ﻿@{
-    ViewBag.Title = "PsakeZero";
+    ViewBag.Title = "DotnetZero";
 }
 
 <div class="splash-container">
     <div class="splash">
-        <img class="psakezero-logo" alt="PsakeZero" src="/assets/img/logo.png">
+        <img class="dotnetzero-logo" alt="DotnetZero" src="/assets/img/logo.png">
         <p class="splash-subhead">
             A simple script to setup your source tree
         </p>
-        <code class="code-snippet">Invoke-WebRequest <span>psakezero.com |</span> Invoke-Expression</code>
+        <code class="code-snippet">Invoke-WebRequest <span>dotnetzero.com |</span> Invoke-Expression</code>
 
     </div>
 </div>
@@ -69,7 +69,7 @@
         <h2 class="content-head is-center">How do I get started?</h2>
         <div class="pure-g">
 
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-24 is-center"><a href="https://github.com/psakezero"><i class="fa fa-github section-icons" aria-hidden="true"></i></a></div>
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-24 is-center"><a href="https://github.com/dotnetzero"><i class="fa fa-github section-icons" aria-hidden="true"></i></a></div>
 
             <div class="l-box-lrg pure-u-1 pure-u-md-9-24">
                 <h3>Look at the script</h3>
@@ -77,8 +77,8 @@
                     You'll need to execute a remote script. That can be scary so but it is open source so you can see what the
                     script does at any time.
                 </p>
-                <h4><a href="https://github.com/psakezero">https://github.com/psakezero</a></h4>
-                <p>If you have any questions, comments or concerns please open an <a href="https://github.com/psakezero/webapp/issues">issue</a> and we'll work on it</p>
+                <h4><a href="https://github.com/dotnetzero">https://github.com/dotnetzero</a></h4>
+                <p>If you have any questions, comments or concerns please open an <a href="https://github.com/dotnetzero/webapp/issues">issue</a> and we'll work on it</p>
             </div>
 
             <div class="l-box-lrg pure-u-1 pure-u-md-3-24 is-center"><i class="fa fa-terminal section-icons"></i></div>
@@ -88,7 +88,7 @@
                 <p>You'll need to execute a remote script but, again, it is open for you to see</p>
                 <p>Run the following:</p>
                 <div style="border: 1px solid gray;background-color: #f9f9f9;padding: 15px;text-align:center">
-                    <code style="font-size: 1.1em;font-weight: bold;letter-spacing: 0.05em;">Invoke-WebRequest psakezero.com | Invoke-Expression</code>
+                    <code style="font-size: 1.1em;font-weight: bold;letter-spacing: 0.05em;">Invoke-WebRequest dotnetzero.com | Invoke-Expression</code>
                 </div>
                 <p>
                     This uses the Invoke-WebRequest cmdlet to GET the script that lives on GitHub and send it to your client. From there it is
@@ -138,7 +138,7 @@
 
             <div class="l-box-lrg pure-u-1 pure-u-md-9-24">
                 <h3>Well take all your answer and create a inital tree for you</h3>
-                <p>This is just an example and even if none of the defaults are to your liking you can change, commit and forget you even used PsakeZero</p>
+                <p>This is just an example and even if none of the defaults are to your liking you can change, commit and forget you even used DotnetZero</p>
                 <p>Something like:</p>
                 <ul style="list-style-type: none;">
                     <li><i class="fa fa-folder-o" aria-hidden="true"></i> artifacts</li>
@@ -213,7 +213,7 @@
 
 
     <div class="footer l-box is-center">
-        PsakeZero — @DateTime.Now.ToLocalTime().Year &copy;
+        DotnetZero — @DateTime.Now.ToLocalTime().Year &copy;
     </div>
 
 </div>
@@ -223,7 +223,7 @@
             .ready(function() {
                 //Thanks http://stackoverflow.com/a/26608674/2730
 
-                var enhanvementsUri = "https://api.github.com/repos/psakezero/script/issues?state=open";
+                var enhanvementsUri = "https://api.github.com/repos/DotnetZero/script/issues?state=open";
                 $.getJSON(enhanvementsUri,
                     function(allIssues) {
 
